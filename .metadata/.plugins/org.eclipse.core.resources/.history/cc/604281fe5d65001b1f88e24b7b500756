@@ -1,0 +1,27 @@
+package br.senai.sp.model;
+
+public class Aluno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public class Pessoa {
+		
+		private String nome;
+		private double dataDeNacimento;
+		private double peso;
+		private int idade;
+		private double altura;
+		private String sexo;
+		private String nivelDeAtividade;
+		
+	}
+	
+	public void setNome (String nome) {
+		this.nome = nome;
+	}
+	
+	
+}
