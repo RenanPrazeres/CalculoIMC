@@ -1,5 +1,7 @@
 package br.senai.sp.model;
 
+
+
 public class Aluno {
 	
 		private String nome;
@@ -13,7 +15,6 @@ public class Aluno {
 	
 	public void setNome (String nome) {
 		this.nome = nome;
-		System.out.println ("Nome:" + nome);
 	}
 	
 	public String getNome() {
@@ -67,4 +68,6 @@ public class Aluno {
 	public String getNivelDeAtividae () {
 		return this.nivelDeAtividade;
 	}
+	
+		
 }
