@@ -1,9 +1,7 @@
 package br.senai.sp.model;
 
 public class Aluno {
-
-	public class Pessoa {
-		
+	
 		private String nome;
 		private double dataDeNacimento;
 		private double peso;
@@ -14,8 +12,8 @@ public class Aluno {
 		
 	
 	public void setNome (String nome) {
-		
 		this.nome = nome;
+		System.out.println ("Nome:" + nome);
 	}
 	
 	public String getNome() {
@@ -37,5 +35,36 @@ public class Aluno {
 	public double getPeso () {
 	return this.peso;
 }
-}
+	
+	public void setIdade (int idade) {
+		this.idade = idade;
+	}
+	
+	public int getIdade () {
+		return this.idade;
+	}
+	
+	public void setAltura (double altura) {
+		this.altura = altura;
+	}
+	
+	public double getAltura() {
+		return this.altura;
+	}
+	
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	
+	public String getSexo () {
+		return this.sexo;
+	}
+	
+	public void setNivelDeAtividade(String nivelDeAtividade) {
+		this.nivelDeAtividade = nivelDeAtividade;
+	}
+	
+	public String getNivelDeAtividae () {
+		return this.nivelDeAtividade;
+	}
 }

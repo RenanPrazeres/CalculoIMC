@@ -1,0 +1,20 @@
+package br.senai.sp.jandira;
+import br.senai.sp.model.Aluno;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+	// Criação dos Alunos
+	
+	Aluno renan  = new Aluno();
+	Aluno  ligia = new Aluno();
+	
+	renan.setNome("RenanPrazeres");
+	renan.SetDataDeNacimento(25);
+	ligia.setNome("LigiaOliveira");
+	
+	}
+}
